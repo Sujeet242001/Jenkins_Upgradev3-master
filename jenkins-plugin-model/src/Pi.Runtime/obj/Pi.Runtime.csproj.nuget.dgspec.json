@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/sujeet/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Runtime/Pi.Runtime.csproj": {}
+  },
+  "projects": {
+    "/home/sujeet/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Runtime/Pi.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/sujeet/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Runtime/Pi.Runtime.csproj",
+        "projectName": "Pi.Runtime",
+        "projectPath": "/home/sujeet/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Runtime/Pi.Runtime.csproj",
+        "packagesPath": "/home/sujeet/.nuget/packages/",
+        "outputPath": "/home/sujeet/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Runtime/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/sujeet/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "PowerArgs": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.422/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

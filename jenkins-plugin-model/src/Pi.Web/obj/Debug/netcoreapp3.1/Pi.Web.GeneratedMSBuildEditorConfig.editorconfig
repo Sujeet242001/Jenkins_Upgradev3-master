@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = Pi.Web
+build_property.ProjectDir = /home/sujeet/Jenkins_Upgradev3-master/jenkins-plugin-model/src/Pi.Web/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
