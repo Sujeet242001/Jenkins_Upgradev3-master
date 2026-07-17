@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Install .NET 7 SDK') {
+        stage('Install .NET 8 SDK') {
             steps {
-                sh 'curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel 7.0'
+                sh 'curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel 8.0'
             }
         }
 

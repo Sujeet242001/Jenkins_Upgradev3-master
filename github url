@@ -1,4 +1,5 @@
 
+JENKINS_HOME=~/jenkins2 java -jar jenkins.war --httpPort=8081
 
 
 
