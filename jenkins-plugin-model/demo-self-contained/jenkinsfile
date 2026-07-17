@@ -13,10 +13,10 @@ pipeline {
                 sh '''
                     curl -fsSL https://get.docker.com -o get-docker.sh
                     sudo sh get-docker.sh
-                    sudo systemctl start docker
-                    sudo systemctl enable docker
-                    sudo systemctl status docker
-                    sudo docker --version
+                    systemctl start docker
+                    systemctl enable docker
+                    systemctl status docker
+                    docker --version
                 '''
             }
         }
