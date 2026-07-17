@@ -13,8 +13,8 @@ pipeline {
                     echo "Build Number: $buildNumber"
 
                     // Use them in shell commands
-                    sh 'sudo docker --version'
-                    sh 'sudo dotnet --info'
+                    sh ' docker --version'
+                    sh ' dotnet --info'
                 }
             }
         }
